@@ -1,0 +1,6 @@
+thre_score: 0.5
+thre_iou: 0.5
+
+conv:
+    Granny Smith: Apple
+    Television: tv

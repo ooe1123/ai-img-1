@@ -1,0 +1,2 @@
+classes = 1000
+names = darknet/data/imagenet.shortnames.list

@@ -1,0 +1,11 @@
+pandas
+opencv-python
+boto3
+icrawler
+google-cloud-vision
+matplotlib
+#tensorflow==1.14
+tensorflow
+tensorflow-hub
+ibm-watson>=4.3.0
+pyyaml

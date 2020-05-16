@@ -1,0 +1,9 @@
+model: resnet50-binary-0001.xml
+device: cpu
+label_file: label.txt
+number_top: 5
+
+conv:
+  Granny Smith: apple
+  Eskimo dog husky: dog
+  Siberian husky: dog

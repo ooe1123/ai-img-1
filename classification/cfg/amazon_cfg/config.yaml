@@ -1,0 +1,288 @@
+aws_access_key_id: XXX
+aws_secret_access_key: XXX
+region_name: ap-northeast-1
+
+conv:
+    Granny Smith: Apple
+    affenpinscher: dog
+    afghan hound: dog
+    afghan hound dog: dog
+    african hunting dog: dog
+    airedale: dog
+    airedale dog: dog
+    american foxhound dog: dog
+    american staffordshire terrier: dog
+    american staffordshire terrier dog: dog
+    appenzeller: dog
+    appenzeller dog: dog
+    australian terrier: dog
+    australian terrier dog: dog
+    basenji: dog
+    basenji dog: dog
+    basset: dog
+    basset hound dog: dog
+    beagle: dog
+    beagle dog: dog
+    beagling (dog): dog
+    bedlington terrier: dog
+    bedroom: dog
+    belgian sheepdog: dog
+    bernese mountain dog: dog
+    black-and-tan coonhound: dog
+    black-and-tan coonhound dog: dog
+    blenheim spaniel: dog
+    blenheim spaniel dog: dog
+    bluetick: dog
+    border collie: dog
+    border collie dog: dog
+    border terrier: dog
+    borzoi: dog
+    boston bull: dog
+    boston bull dog: dog
+    bouvier des flandres: dog
+    bouvier des flandres dog: dog
+    boxer: dog
+    boxer dog: dog
+    brabancon griffon: dog
+    briard: dog
+    brittany spaniel: dog
+    bull mastiff: dog
+    bull mastiff dog: dog
+    bulldog: dog
+    bullterrier dog: dog
+    canine: dog
+    chesapeake bay retriever: dog
+    chesapeake bay retriever dog: dog
+    chihuahua: dog
+    chihuahua dog: dog
+    chow: dog
+    clumber: dog
+    cocker spaniel: dog
+    collie: dog
+    collie dog: dog
+    coonhound dog: dog
+    coursing (dog): dog
+    curly-coated retriever: dog
+    dachshund dog: dog
+    dalmatian: dog
+    dalmatian dog: dog
+    dandie dinmont: dog
+    dandie dinmont dog: dog
+    doberman: dog
+    doberman dog: dog
+    english cocker spaniel dog: dog
+    english foxhound dog: dog
+    english setter dog: dog
+    english springer spaniel dog: dog
+    entlebucher: dog
+    eskimo dog: dog
+    flat-coated retriever: dog
+    flat-coated retriever dog: dog
+    fox terrier dog: dog
+    foxhound dog: dog
+    french bulldog: dog
+    german shepherd: dog
+    german shepherd dog: dog
+    german short-haired pointer dog: dog
+    giant schnauzer: dog
+    golden retriever: dog
+    golden retriever dog: dog
+    gordon setter: dog
+    gordon setter dog: dog
+    great dane: dog
+    great dane dog: dog
+    great pyrenees: dog
+    great pyrenees dog: dog
+    greater swiss mountain dog: dog
+    groenendael: dog
+    groenendael dog: dog
+    harrier dog: dog
+    hound: dog
+    hound dog: dog
+    ibizan hound: dog
+    ibizan hound dog: dog
+    irish setter: dog
+    irish setter dog: dog
+    irish terrier: dog
+    irish wolfhound: dog
+    italian greyhound: dog
+    italian greyhound dog: dog
+    japanese spaniel: dog
+    japanese spaniel dog: dog
+    keeshond: dog
+    kelpie: dog
+    kelpie dog: dog
+    kerry blue terrier: dog
+    king charles spaniel dog: dog
+    komondor: dog
+    komondor dog: dog
+    kuvasz: dog
+    kuvasz dog: dog
+    labrador retriever: dog
+    labrador retriever dog: dog
+    lakeland terrier: dog
+    lakeland terrier dog: dog
+    lapdog dog: dog
+    leonberg: dog
+    leonberg dog: dog
+    lhasa: dog
+    lhasa dog: dog
+    malamute: dog
+    malamute dog: dog
+    malinois: dog
+    malinois dog: dog
+    maltese dog: dog
+    manchester terrier dog: dog
+    mastiff dog: dog
+    miniature pinscher: dog
+    miniature pinscher dog: dog
+    miniature poodle: dog
+    miniature schnauzer: dog
+    norfolk terrier: dog
+    norfolk terrier dog: dog
+    norwegian elkhound: dog
+    norwich terrier: dog
+    norwich terrier dog: dog
+    old english sheepdog: dog
+    otterhound: dog
+    papillon: dog
+    papillon (spaniel) dog: dog
+    pekinese: dog
+    pekinese dog: dog
+    pembroke welsh corgi: dog
+    pinscher dog: dog
+    pointer: dog
+    pointer dog: dog
+    pomeranian: dog
+    poodle: dog
+    poodle dog: dog
+    pug: dog
+    pug-dog: dog
+    redbone: dog
+    redbone dog: dog
+    retriever dog: dog
+    rhodesian ridgeback: dog
+    rhodesian ridgeback dog: dog
+    rottweiler: dog
+    saint bernard: dog
+    saint bernard dog: dog
+    saluki: dog
+    saluki dog: dog
+    samoyed: dog
+    schnauzer dog: dog
+    scotch terrier: dog
+    scottish deerhound: dog
+    sealyham terrier: dog
+    sealyham terrier dog: dog
+    sennenhunde dog: dog
+    setter dog: dog
+    shetland sheepdog: dog
+    shih-tzu: dog
+    shih-tzu dog: dog
+    siberian husky: dog
+    siberian husky dog: dog
+    soft-coated wheaten terrier: dog
+    soft-coated wheaten terrier dog: dog
+    spaniel: dog
+    spaniel dog: dog
+    spitz dog: dog
+    springer spaniel dog: dog
+    staffordshire bullterrier: dog
+    staffordshire bullterrier dog: dog
+    standard poodle: dog
+    standard schnauzer: dog
+    standard schnauzer dog: dog
+    sussex spaniel: dog
+    sussex spaniel dog: dog
+    terrier: dog
+    terrier dog: dog
+    tibetan mastiff: dog
+    tibetan mastiff dog: dog
+    tibetan terrier dog: dog
+    toy manchester dog: dog
+    toy poodle: dog
+    vizsla dog: dog
+    walker hound: dog
+    weimaraner dog: dog
+    welsh springer spaniel: dog
+    welsh terrier dog: dog
+    west highland white terrier: dog
+    wire-haired fox terrier: dog
+    yorkshire terrier: dog
+    yorkshire terrier dog: dog
+    egyptian cat: cat
+    tabby: cat
+    tiger cat: cat
+    lynx: cat
+    persian cat: cat
+    siamese cat: cat
+    abyssinian: cat
+    black cat: cat
+    wildcat: cat
+    angora cat: cat
+    siamese: cat
+    tortoiseshell-cat: cat
+    tabby cat: cat
+    sand cat: cat
+    mountain bike: bicycle
+    bicycle-built-for-two: bicycle
+    bike: bicycle
+    push-bike: bicycle
+    bicycle wheel: bicycle
+    bmx: bicycle
+    tandem bicycle: bicycle
+    safety bicycle: bicycle
+    pedal: bicycle
+    ordinary bicycle: bicycle
+    bicycling: bicycle
+    cycle rickshaw: bicycle
+    velocipede (bicycle): bicycle
+    cycling: bicycle
+    sports car: car
+    minivan: car
+    beach wagon: car
+    vehicle: car
+    convertible: car
+    wheeled vehicle: car
+    sedan: car
+    automobile: car
+    cab: car
+    minibus: car
+    limousine: car
+    coupe: car
+    jeep: car
+    moving van: car
+    truck: car
+    tow truck: car
+    van: car
+    recreational vehicle: car
+    motor vehicle: car
+    body (of vehicle): car
+    race car: car
+    jaguar car: car
+    subcompact car: car
+    trailer truck: car
+    ambulance: car
+    passenger car: car
+    pace car: car
+    coupe car: car
+    snowplow: car
+    garbage truck: car
+    bus: car
+    compact car: car
+    roadster: car
+    hot rod: car
+    convertible car: car
+    antique car: car
+    school bus: car
+    car transporter: car
+    passenger van: car
+    stock car (racing): car
+    limo: car
+    police car: car
+    tour bus: car
+    fire engine: car
+    light truck: car
+    four-wheel drive: car
+    elevator car: car
+    loaner car: car

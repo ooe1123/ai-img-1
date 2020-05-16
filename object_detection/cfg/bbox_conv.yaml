@@ -1,0 +1,4 @@
+# テストデータセットのラベル名を変換
+stop sign: traffic sign
+dining table: table
+truck: car

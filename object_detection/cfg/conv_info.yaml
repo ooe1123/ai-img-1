@@ -1,0 +1,29 @@
+# 物体検知結果のラベル名を変換
+tvmonitor: tv
+computer monitor: tv
+television: tv
+man: person
+woman: person
+boy: person
+girl: person
+aeroplane: airplane
+coffee cup: cup
+sofa: couch
+motorbike: motorcycle
+stop sign: traffic sign
+dining table: table
+diningtable: table
+coffee table: table
+desk: table
+kitchen & dining room table: table
+pottedplant: potted plant
+salad: food
+truck: car
+cattle: cow
+bull: cow
+mobile phone: cell phone
+wall clock: clock
+computer keyboard: keyboard
+polar bear: bear
+brown bear: bear
+chicken: bird
