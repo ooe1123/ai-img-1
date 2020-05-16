@@ -16,8 +16,8 @@ top_path = os.path.dirname(this_path)
 sys.path.append(this_path)
 
 # Add library path
-# sys.path.insert(0, "{}/darknet/python/".format(top_path))
-sys.path.insert(0, "{}/darknet_alexey/build/darknet/x64/".format(top_path)) # darknet_alexey
+sys.path.insert(0, "{}/darknet/python/".format(top_path))
+# sys.path.insert(0, "{}/darknet_alexey/build/darknet/x64/".format(top_path)) # darknet_alexey
 from darknet import load_net, load_image, load_meta, classify, detect
 
 from common.log import Log
