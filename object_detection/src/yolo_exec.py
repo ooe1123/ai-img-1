@@ -33,7 +33,7 @@ SAVE_DIR = "result/yolo"
 RESULT_FILE = "yolo_result.csv"
 
 
-logger = Log.getLogger("yolo", no_handler=True)
+logger = Log.getLogger("yolo")
 
 
 def main():

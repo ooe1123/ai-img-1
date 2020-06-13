@@ -30,7 +30,7 @@ SAVE_DIR = "result/google_vision"
 RESULT_FILE = "google_vision_result.csv"
 
 
-logger = Log.getLogger("google_vision", no_handler=True)
+logger = Log.getLogger("google_vision")
 
 
 def main():
