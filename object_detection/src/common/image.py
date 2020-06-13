@@ -39,6 +39,10 @@ def plot_bbox(img, bbox, scores, label_names):
 
     # 画像の表示
     plt.figure(figsize=(10, 10))
+    # h, w = img.shape[:2]
+    # dpi = 96
+    # margin = 80
+    # plt.figure(figsize=((w+2*margin)/dpi, (h+2*margin)/dpi))
     plt.imshow(img)
     plt.axis('off')
     currentAxis = plt.gca()

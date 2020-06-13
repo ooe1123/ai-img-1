@@ -36,7 +36,7 @@ logger = Log.getLogger("tfhub", no_handler=True)
 def tfhub_exec():
     # load cofig
     config = read_config("config.yaml", os.path.join(top_path, "cfg", "tfhub"))
-    bbox_conv = read_config("bbox_conv.yaml", os.path.join(top_path, "cfg"))
+    ans_conv = read_config("ans_conv.yaml", os.path.join(top_path, "cfg"))
     conv_info = read_config("conv_info.yaml", os.path.join(top_path, "cfg"))
     # conv_info = { k.lower():v.lower() for k,v in config.get("conv", {}).items() }
     module_url = config["module_url"]
@@ -56,6 +56,7 @@ def tfhub_exec():
     st = time.time()
     result = []
     images = image_loader(IMAGE_DIR)
+    num = 0
     with tf.compat.v1.Session() as session:
         for file_name, file_path, df_box in images:
             print("[file]", file_name)
@@ -116,7 +117,7 @@ def tfhub_exec():
                 plt.close()
                 
                 # check result
-                df_box["label"] = df_box.label.apply(lambda x: bbox_conv.get(x, x))
+                df_box["label"] = df_box.label.apply(lambda x: ans_conv.get(x, x))
                 for label in df_box.label.unique():
                     df_a = df_box[df_box.label==label]
                     df_b = df_res[df_res.label==label]
@@ -174,6 +175,7 @@ def tfhub_exec():
                         row.name,
                     ])
                 
+                num += 1
                 # break
             except KeyboardInterrupt:
                 break
@@ -189,10 +191,9 @@ def tfhub_exec():
         columns=[
             "file_path", "label", "ok",
             "score", "IoU",
-            "x", "y", "w", "h",
-            "_x", "_y", "_w", "_h", "_label"
+            "x", "y", "x2", "y2",
+            "_x", "_y", "_x2", "_y2", "_label"
         ])
-    num = result.file_path.nunique()
     
     logger.info("画像処理時間 : {}".format(lap))
     logger.info("画像枚数 : {}".format(num))

@@ -22,7 +22,7 @@ from common.image import plot_bbox
 
 # 定数
 IMAGE_DIR = "./img"
-SAVE_DIR = "result/bbox"
+SAVE_DIR = "result/answer"
 
 
 def main():
