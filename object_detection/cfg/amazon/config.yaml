@@ -1,0 +1,8 @@
+aws_access_key_id: XXX
+aws_secret_access_key: XXX
+region_name: ap-northeast-1
+bucket_name: ai-sample-img
+exec_rekognition: true
+
+thre_score: 0.5
+thre_iou: 0.5

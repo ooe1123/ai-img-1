@@ -1,0 +1,4 @@
+device: '0' # 'cpu' or '0' or '0,1,2,3'
+weights: yolov5/weights/yolov5s.pt
+thre_score: 0.5
+thre_iou: 0.5

@@ -1,0 +1,7 @@
+model: faster-rcnn-resnet101-coco-sparse-60-0001.xml
+device: cpu
+label_file: coco-label.yaml
+
+thre_score: 0.5
+thre_iou: 0.5
+
